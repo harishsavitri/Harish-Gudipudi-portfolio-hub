@@ -95,7 +95,7 @@ const Resume = () => {
               <h3 className="text-2xl font-bold">Education</h3>
             </div>
             <Card className="p-6 bg-card border-border animate-fade-in" style={{ animationDelay: "0.4s" }}>
-              <h4 className="font-bold text-lg mb-1">B.Sc. Computer Science</h4>
+              <h4 className="font-bold text-lg mb-1">MCA. (Master of Computer Applications)</h4>
               <p className="text-muted-foreground text-sm mb-2">University Name</p>
               <p className="text-sm text-muted-foreground">2013 - 2017</p>
             </Card>
