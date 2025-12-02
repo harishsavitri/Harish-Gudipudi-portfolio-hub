@@ -90,7 +90,7 @@ const Contact = () => {
           <Button 
             size="lg" 
             className="gradient-accent text-background font-bold hover:opacity-90 transition-all shadow-glow-accent"
-            onClick={() => window.location.href = "mailto:devops@example.com"}
+            onClick={() => window.location.href = "mailto: gudiputiharish@gmail.com"}
           >
             Send Me an Email
           </Button>
