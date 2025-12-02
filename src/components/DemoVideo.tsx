@@ -19,7 +19,7 @@ const DemoVideo = () => {
               className="w-full h-full object-cover"
               poster="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=675&fit=crop"
             >
-              <source src="https://www.youtube.com/watch?v=1BVgpX4w0Wk&list=RD1BVgpX4w0Wk&start_radio=1" type="video/mp4" />
+              <source src="https://1drv.ms/v/c/7a5d4e694f0f523a/EakFLBfORZpEoldC9jwbEjgBYftgwM7FsGtqzMcRPHaV6g?e=CKpVnR" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
