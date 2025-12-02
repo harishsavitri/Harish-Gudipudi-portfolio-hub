@@ -7,13 +7,13 @@ const contactMethods = [
     icon: Mail,
     label: "Email",
     value: "devops@example.com",
-    link: "mailto:devops@example.com",
+    link: "mailto:gudiputiharish@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
     value: "+1 (555) 123-4567",
-    link: "tel:+15551234567",
+    link: "tel:+916303371886",
   },
   {
     icon: Linkedin,
@@ -25,7 +25,7 @@ const contactMethods = [
     icon: Github,
     label: "GitHub",
     value: "github.com/devopsengineer",
-    link: "https://github.com/devopsengineer",
+    link: "https://github.com/harishsavitri",
   },
   {
     icon: MapPin,
