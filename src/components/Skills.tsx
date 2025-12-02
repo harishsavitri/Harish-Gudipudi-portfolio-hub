@@ -20,12 +20,12 @@ const skills = [
   {
     icon: Server,
     title: "Infrastructure as Code",
-    description: "Terraform, Ansible, CloudFormation, Pulumi",
+    description: "Terraform, Ansible, CloudFormation",
   },
   {
     icon: Shield,
     title: "Security & Monitoring",
-    description: "AWS IAM, Security Groups, CloudWatch, Prometheus",
+    description: "AWS IAM, Security Groups, CloudWatch, Prometheus, Grafana",
   },
   {
     icon: Zap,
