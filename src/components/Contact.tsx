@@ -18,7 +18,7 @@ const contactMethods = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "https://www.linkedin.com/in/harish-gudipudi-b98726178/",
+    value: "linkedin.com/in/harish-gudipudi-b98726178/",
     link: "https://www.linkedin.com/in/harish-gudipudi-b98726178/",
   },
   {
