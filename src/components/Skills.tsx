@@ -30,7 +30,7 @@ const skills = [
   {
     icon: Zap,
     title: "Automation",
-    description: "Python, Bash, PowerShell, API Integration",
+    description: "Python, Bash, PowerShell",
   },
 ];
 
