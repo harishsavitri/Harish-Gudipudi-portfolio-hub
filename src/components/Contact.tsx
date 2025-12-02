@@ -6,31 +6,31 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "devops@example.com",
+    value: "gudiputiharish@gmail.com",
     link: "mailto:gudiputiharish@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    link: "tel:+916303371886",
+    value: "+916303371886",
+    link: "cell:+916303371886",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/devopsengineer",
-    link: "https://linkedin.com/in/devopsengineer",
+    value: "linkedin.com/in/harish-gudipudi-b98726178/",
+    link: "https://www.linkedin.com/in/harish-gudipudi-b98726178/",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/devopsengineer",
+    value: "github.com/harishsavitri",
     link: "https://github.com/harishsavitri",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Hyderabad, IND",
     link: null,
   },
 ];
