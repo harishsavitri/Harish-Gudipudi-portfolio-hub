@@ -32,12 +32,12 @@ const DemoVideo = () => {
               className="w-full h-full object-cover"
               poster="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=675&fit=crop"
             >
-              <source src="pub.mp4" type="video/mp4" />
+              <source src="https://dms.licdn.com/playlist/vid/v2/D5605AQFdvu_Gz18_vQ/mp4-720p-30fp-crf28/B56ZrjEEXDK4CM-/0/1764746088710?e=1765353600&v=beta&t=IvInZRqWD2If0_CfQQZZCx4deS8TJH-CVCSY-HBCVYY" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <p className="text-center text-sm text-muted-foreground mt-4">
-            Demo: Devotional song Durgamma Temple, Vijayawada city of destiny.
+            Demo:  It's a Pub Time (Zero40 Trivia Nights – Zero40) | Jubilee Hills– Hyderabad 271/A, Road Number 10.
           </p>
         </div>
       </div> 
