@@ -23,6 +23,9 @@ const DemoVideo = () => {
               Your browser does not support the video tag.
             </video>
           </div>
+          <p className="text-center text-sm text-muted-foreground mt-4">
+            Demo: CAPGEMINI CAMPUS, 115/32 & 35, ISB Rd, Financial District, Nanakramguda, Hyderabad.
+          </p>
           <div className="relative aspect-video rounded-2xl overflow-hidden border-2 border-accent/30 shadow-glow-accent bg-card">
             <video
               controls
