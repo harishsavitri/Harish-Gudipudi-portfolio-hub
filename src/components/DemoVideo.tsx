@@ -32,12 +32,12 @@ const DemoVideo = () => {
               className="w-full h-full object-cover"
               poster="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=675&fit=crop"
             >
-              <source src="https://www.youtube.com/watch?v=-wv0yyoGYLI&list=RD-wv0yyoGYLI&start_radio=1" type="video/mp4" />
+              <source src="" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <p className="text-center text-sm text-muted-foreground mt-4">
-            Demo: Devotional song Durgamma Temple Vijayawada city of desinity.
+            Demo: Devotional song Durgamma Temple, Vijayawada city of destiny.
           </p>
         </div>
       </div> 
