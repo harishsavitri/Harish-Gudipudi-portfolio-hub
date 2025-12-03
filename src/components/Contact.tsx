@@ -31,7 +31,7 @@ const contactMethods = [
     icon: MapPin,
     label: "Location",
     value: "Hyderabad, IND",
-    link: https://maps.app.goo.gl/NZ27JAd9bpy1uhhE8,
+    link: "https://maps.app.goo.gl/NZ27JAd9bpy1uhhE8",
   },
 ];
 
