@@ -32,12 +32,12 @@ const DemoVideo = () => {
               className="w-full h-full object-cover"
               poster="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=675&fit=crop"
             >
-              <source src="https://dms.licdn.com/playlist/vid/v2/D5605AQE0jS9cRw9ZnA/mp4-720p-30fp-crf28/B56ZrfT1Q5JwCI-/0/1764683113294?e=1765288800&v=beta&t=HESC1IaxFlRNUaHY27hD6PlQV5OAxyQAkYxlwl8nmuE" type="video/mp4" />
+              <source src="https://www.youtube.com/watch?v=-wv0yyoGYLI&list=RD-wv0yyoGYLI&start_radio=1" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <p className="text-center text-sm text-muted-foreground mt-4">
-            Demo: CAPGEMINI CAMPUS, 115/32 & 35, ISB Rd, Financial District, Nanakramguda, Hyderabad.
+            Demo: Devotional song Durgamma Temple Vijayawada city of desinity.
           </p>
         </div>
       </div> 
