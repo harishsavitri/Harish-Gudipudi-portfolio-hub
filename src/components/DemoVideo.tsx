@@ -39,7 +39,7 @@ const DemoVideo = () => {
           <p className="text-center text-sm text-muted-foreground mt-4">
             Demo:  It's a Pub Time (Zero40 Trivia Nights – Zero40) | Jubilee Hills– Hyderabad 271/A, Road Number 10.
           </p>
-          <div className="relative aspect-video rounded-2xl overflow-hidden border-2 border-accent/30 shadow-glow-accent bg-card">
+          <div className="relative aspect-video rounded-3xl overflow-hidden border-3 border-accent/40 shadow-glow-accent bg-card">
             <video
               controls
               className="w-full h-full object-cover"
