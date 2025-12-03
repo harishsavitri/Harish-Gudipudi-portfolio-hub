@@ -39,6 +39,19 @@ const DemoVideo = () => {
           <p className="text-center text-sm text-muted-foreground mt-4">
             Demo:  It's a Pub Time (Zero40 Trivia Nights – Zero40) | Jubilee Hills– Hyderabad 271/A, Road Number 10.
           </p>
+          <div className="relative aspect-video rounded-2xl overflow-hidden border-2 border-accent/30 shadow-glow-accent bg-card">
+            <video
+              controls
+              className="w-full h-full object-cover"
+              poster="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=675&fit=crop"
+            >
+              <source src="https://dms.licdn.com/playlist/vid/v2/D5605AQEZb0B35dilMw/mp4-640p-30fp-crf28/B56ZrjOO15MEBw-/0/1764748752776?e=1765357200&v=beta&t=Ht6y6fGZc65Gbr0sDuEFXR7E6K2EUncJUHmi8cjSlOk" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="text-center text-sm text-muted-foreground mt-4">
+            Demo:  My personal video tag, please checkout my video is here.
+          </p>
         </div>
       </div> 
     </section>
