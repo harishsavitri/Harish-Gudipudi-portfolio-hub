@@ -24,7 +24,7 @@ const DemoVideo = () => {
             </video>
           </div>
           <p className="text-center text-sm text-muted-foreground mt-4">
-            Demo: Automated AWS Infrastructure Deployment with Terraform & Jenkins
+            Demo: CAPGEMINI CAMPUS, 115/32 & 35, ISB Rd, Financial District, Nanakramguda, Hyderabad.
           </p>
         </div>
       </div>
