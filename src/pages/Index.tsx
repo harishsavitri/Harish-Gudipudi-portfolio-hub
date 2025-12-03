@@ -16,7 +16,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-border">
         <div className="container text-center text-muted-foreground">
-          <p>© 2025 AWS DevOps Engineer. Building the future of cloud infrastructure.</p>
+          <p>© 2026 Website Designed By Harish Gudipudi. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
