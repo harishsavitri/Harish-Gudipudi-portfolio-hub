@@ -56,14 +56,14 @@ const DemoVideo = () => {
             <video
               controls
               className="w-full h-full object-cover"
-              poster="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=675&fit=crop"
+              poster="https://images.unsplash.com/photo-1581363990197-eb1e2b3c9272?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             >
-              <source src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/purimotivate.mp4?raw=true" type="video/mp4" />
+              <source src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/akhanda.mp4?raw=true" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <p className="text-center text-sm text-muted-foreground mt-4">
-            Demo:  Purijaganadh Motivational speech plese listen once.
+            Demo:  Akhanda thandavam  please checkout my video is here.
           </p>
         </div>
       </div> 
