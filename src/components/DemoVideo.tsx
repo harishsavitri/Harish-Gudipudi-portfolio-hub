@@ -56,7 +56,7 @@ const DemoVideo = () => {
             <video
               controls
               className="w-full h-full object-cover"
-              poster="https://stat4.bollywoodhungama.in/wp-content/uploads/2023/01/Akhanda-306x393.jpg"
+              poster="https://wallpaperaccess.com/full/9878174.jpg"
             >
               <source src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/akhanda.mp4?raw=true" type="video/mp4" />
               Your browser does not support the video tag.
