@@ -19,7 +19,7 @@ const DemoVideo = () => {
               className="w-full h-full object-cover"
               poster="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=675&fit=crop"
             >
-              <source src="" type="video/mp4" />
+              <source src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/capgemini%20campus.mp4?raw=true" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
