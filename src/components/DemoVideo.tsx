@@ -52,6 +52,19 @@ const DemoVideo = () => {
           <p className="text-center text-sm text-muted-foreground mt-4">
             Demo:  My personal video tag, please checkout my video is here.
           </p>
+          <div className="relative aspect-video rounded-2xl overflow-hidden border-2 border-accent/30 shadow-glow-accent bg-card">
+            <video
+              controls
+              className="w-full h-full object-cover"
+              poster="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=675&fit=crop"
+            >
+              <source src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/purimotivate.mp4?raw=true" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="text-center text-sm text-muted-foreground mt-4">
+            Demo:  Purijaganadh Motivational speech plese listen once.
+          </p>
         </div>
       </div> 
     </section>
