@@ -33,12 +33,6 @@ const contactMethods = [
     value: "Hyderabad, IND",
     link: "https://maps.app.goo.gl/NZ27JAd9bpy1uhhE8",
   },
-  {
-    icon: Resume,
-    label: "Resume",
-    value: "Checkout My Resume",
-    link: "file:///C:/Users/HP/OneDrive/Desktop/HARISH_GUDIPUDI_DevOps_MCA_2025.pdf",
-  },
 ];
 
 const Contact = () => {
