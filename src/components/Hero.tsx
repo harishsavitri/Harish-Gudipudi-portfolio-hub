@@ -25,7 +25,7 @@ const Hero = () => {
           {/* Hero Content */}
           <div className="flex-1 text-center lg:text-left space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <div className="inline-block px-4 py-2 bg-primary/10 border border-primary rounded-full">
-              <span className="text-primary font-semibold">Hi!This is Harish(Gowda) Gudipudi</span>
+              <span className="text-primary font-semibold">Hi! This is Harish(Gowda) Gudipudi</span>
             </div>
             <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight">
               Building Cloud
