@@ -1,4 +1,4 @@
-mport { Award, ExternalLink } from "lucide-react";
+import { Award, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const achievements = [
