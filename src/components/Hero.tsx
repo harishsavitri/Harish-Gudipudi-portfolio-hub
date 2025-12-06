@@ -33,8 +33,12 @@ const Hero = () => {
               <br />at Scale
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl">
-              Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices.
-              Passionate about automation, CI/CD, and infrastructure as code.
+              Dynamic (MCA) Post graduate with a focus on Aws Devops Engineer, I am eager to Apply My Technical
+                    Awareness and Innovative Problem-Solving Skills in a challenging AWs Devops role. Seeking a
+                    position where I can contribute to Cutting-Edge Projects using Fast Growing Technologies and Collaborate
+                    with a Forward-Thinking team.
+                    Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices.
+                    Passionate about automation, CI/CD, and infrastructure as code.
             </p>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
               <Button 
