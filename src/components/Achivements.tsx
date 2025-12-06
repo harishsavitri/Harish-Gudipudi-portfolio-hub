@@ -23,7 +23,7 @@ const achievements = [
   {
     title: "Linux Certification",
     description:
-      'Completed the "Introduction to Linux" certification from FRONTLINES EDUTECH PRIVATE LIMITED (October 2024), gaining foundational knowledge in Linux server technologies and their Adminstraction.',
+      'Completed the "Introduction to Linux" certification from FRONTLINES EDUTECH PRIVATE LIMITED (April 2025), gaining foundational knowledge in Linux server technologies and their Adminstraction.',
     link: "https://media.licdn.com/dms/image/v2/D562DAQFz8xSlQpWkfw/profile-treasury-image-shrink_1920_1920/B56ZpAkNMIJwAc-/0/1762019827671?e=1765630800&v=beta&t=UctX9Zb9xO5M9Mb-LkCvJAvFtJsZymfbYNf2yOwGb5o",
   },
 ];
