@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import DemoVideo from "@/components/DemoVideo";
 import Skills from "@/components/Skills";
 import Resume from "@/components/Resume";
+import { Achievements } from "@/components/Achivements";
 import Contact from "@/components/Contact";
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
       <DemoVideo />
       <Skills />
       <Resume />
+      <Achievements />
       <Contact />
       
       {/* Footer */}
