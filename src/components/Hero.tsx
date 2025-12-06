@@ -33,8 +33,7 @@ const Hero = () => {
               <br />at Scale
             </h1>
             <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
+                    <h1>About Myself</h1>
                 </div>
             <p className="text-xl text-muted-foreground max-w-2xl">
               Dynamic (MCA) Post graduate with a focus on Aws Devops Engineer, I am eager to Apply My Technical
