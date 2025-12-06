@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin, Github, MapPin } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, MapPin, Resume } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
@@ -32,6 +32,12 @@ const contactMethods = [
     label: "Location",
     value: "Hyderabad, IND",
     link: "https://maps.app.goo.gl/NZ27JAd9bpy1uhhE8",
+  },
+  {
+    icon: Resume,
+    label: "Resume",
+    value: "Checkout My Resume",
+    link: "file:///C:/Users/HP/OneDrive/Desktop/HARISH_GUDIPUDI_DevOps_MCA_2025.pdf",
   },
 ];
 
