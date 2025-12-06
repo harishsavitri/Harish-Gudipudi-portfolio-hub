@@ -25,7 +25,7 @@ const Hero = () => {
           {/* Hero Content */}
           <div className="flex-1 text-center lg:text-left space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <div className="inline-block px-4 py-2 bg-primary/10 border border-primary rounded-full">
-              <span className="text-primary font-semibold">Hi! This is Harish(Gowda) Gudipudi</span>
+              <span className="text-primary font-semibold">Hi! This is Harish(Gowda) Gudipudi.</span>
             </div>
             <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight">
               Building Cloud
@@ -45,6 +45,7 @@ const Hero = () => {
                     with a Forward-Thinking team.
                     Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices.
                     Passionate about automation, CI/CD, and infrastructure as code.
+              <a href="file:///C:/Users/HP/OneDrive/Desktop/HARISH_GUDIPUDI_DevOps_MCA_2025.pdf" class="cta">Checkout my Resume</a>     
             </p>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
               <Button 
