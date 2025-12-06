@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin, Github, MapPin, Resume,} from "lucide-react";
+import { Mail, Phone, Linkedin, Github, MapPin} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
