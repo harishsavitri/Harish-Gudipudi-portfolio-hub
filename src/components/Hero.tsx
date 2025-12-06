@@ -44,9 +44,9 @@ const Hero = () => {
                     position where I can contribute to Cutting-Edge Projects using Fast Growing Technologies and Collaborate
                     with a Forward-Thinking team.
                     Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices.
-                    Passionate about automation, CI/CD, and infrastructure as code.
-              <a href="file:///C:/Users/HP/OneDrive/Desktop/HARISH_GUDIPUDI_DevOps_MCA_2025.pdf" class="cta">Checkout my Resume</a>     
+                    Passionate about automation, CI/CD, and infrastructure as code.    
             </p>
+             <a href="file:///C:/Users/HP/OneDrive/Desktop/HARISH_GUDIPUDI_DevOps_MCA_2025.pdf" class="cta">Checkout my Resume</a>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
               <Button 
                 size="lg" 
