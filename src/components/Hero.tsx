@@ -46,7 +46,7 @@ const Hero = () => {
                     Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices.
                     Passionate about automation, CI/CD, and infrastructure as code.    
             </p>
-            <a href="https://drive.google.com/file/d/1knpBXeePmj3sGKwW0xaM_DZc6Q-BaTWO/view?usp=drive_link" class="cta">Checkout my Resume</a>
+            <a href="file:///C:/Users/HP/OneDrive/Desktop/HARISH_GUDIPUDI_DevOps_MCA_2025.pdf" class="cta">Checkout my Resume</a>
                 
                     
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
