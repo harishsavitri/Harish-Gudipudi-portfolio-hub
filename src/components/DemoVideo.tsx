@@ -52,19 +52,7 @@ const DemoVideo = () => {
           <p className="text-center text-sm text-muted-foreground mt-4">
             Demo:  My personal video tag, please checkout my video is here.
           </p>
-          <div className="relative aspect-video rounded-2xl overflow-hidden border-2 border-accent/30 shadow-glow-accent bg-card">
-            <video
-              controls
-              className="w-full h-full object-cover"
-              poster="https://wallpaperaccess.com/full/9878174.jpg"
-            >
-              <source src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/akhanda.mp4?raw=true" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <p className="text-center text-sm text-muted-foreground mt-4">
-            Demo:  Akhanda thandavam  please checkout my video is here.
-          </p>
+          
         </div>
       </div> 
     </section>
