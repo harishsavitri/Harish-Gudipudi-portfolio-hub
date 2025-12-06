@@ -34,8 +34,7 @@ const Hero = () => {
             </h1>
             <div class="about-details" data-aos="fade-up" data-aos-delay="300ms" >
                 <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
+                    <h1>About Myself</h1>
                 </div>
             </div>
             <p className="text-xl text-muted-foreground max-w-2xl">
