@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 
 const achievements = [
   {
-    title: "Machine Learning Internship",
+    title: "Devops Learning Internship",
     description:
-      "Completed a Machine Learning with Python internship at Verzeo and Zebo.AI, working on live projects (Oct 2022 – Nov 2022), demonstrating enthusiasm and practical skills in Machine Learning concepts.",
-    link: "https://drive.google.com/file/d/1u8w2GxHKSCOI6S2K9gCNU9QkcQbtoe6L/view?usp=sharing",
+      "Completed a Devops with Jenkmins, Docker, Kubernetes internship at Verzeo and Zebo.AI, working on live projects (Oct 2025 – Nov 2025), demonstrating enthusiasm and practical skills in Machine Learning concepts.",
+    link: "https://media.licdn.com/dms/image/v2/D562DAQFyBkkS7TSJeQ/profile-treasury-image-shrink_1280_1280/B56ZpSzQNhI0AU-/0/1762325760296?e=1765630800&v=beta&t=qkuhn6-9eC761S3tQkgAMCjMXVzidcyxfFApFBbg7MM",
   },
   {
     title: "Python Certification - Kaggle",
@@ -15,16 +15,16 @@ const achievements = [
     link: "https://drive.google.com/file/d/1oULC6vjcyEL32kAldj4Ava3P82F01dLX/view?usp=sharing",
   },
   {
-    title: "Frontend Web Development Internship",
+    title: "Aws Cloud Assessment",
     description:
-      "Completed a one-month internship in Frontend Web Development at Internite Corporation (July 2024), gaining practical experience in building user-friendly and interactive web applications.",
-    link: "https://drive.google.com/file/d/1fMv5CF55sMBSRXHfxrWELb0S6__KrKHW/view?usp=sharing",
+      "Completed a one-month internship in Aws Cloud Assessment at LearnTube.Ai (Oct 2025), gaining practical experience in building user-friendly and interactive aws cloud services.",
+    link: "https://media.licdn.com/dms/image/v2/D562DAQHF-J-Q17ep-Q/profile-treasury-image-shrink_800_800/B56ZpAl0vGI0AY-/0/1762020260203?e=1765630800&v=beta&t=J_fbBVcCNocpbN0AE-LjlLjHyN3BFbwCSlDU8TEUCA0",
   },
   {
-    title: "Cloud Computing Certification",
+    title: "Linux Certification",
     description:
-      'Completed the "Introduction to Cloud Computing" certification from Simplilearn (October 2023), gaining foundational knowledge in cloud computing technologies and their applications.',
-    link: "https://drive.google.com/file/d/10Y2l2YrUM-9266WFigbhts801kYWqgBM/view?usp=sharing",
+      'Completed the "Introduction to Linux" certification from Simplilearn (October 2024), gaining foundational knowledge in Linux server technologies and their Adminstraction.',
+    link: "https://media.licdn.com/dms/image/v2/D562DAQFz8xSlQpWkfw/profile-treasury-image-shrink_1920_1920/B56ZpAkNMIJwAc-/0/1762019827671?e=1765630800&v=beta&t=UctX9Zb9xO5M9Mb-LkCvJAvFtJsZymfbYNf2yOwGb5o",
   },
 ];
 
