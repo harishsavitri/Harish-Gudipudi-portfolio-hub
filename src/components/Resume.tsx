@@ -96,8 +96,8 @@ const Resume = () => {
             </div>
             <Card className="p-6 bg-card border-border animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <h4 className="font-bold text-lg mb-1">MCA. (Master of Computer Applications)</h4>
-              <p className="text-muted-foreground text-sm mb-2">JNTU-Kakinada</p>
-              <p className="text-sm text-muted-foreground">2016 - 2019 CGPA: 9.04/10 Coursework: DBMS, Java, C language, OS, OOAD, WebTechnologies, SoftwareEngineering</p>
+              <p className="text-muted-foreground text-sm mb-2">Lakireddy Bali Reddy College Of Engineering & Technology(Autonomous),JNTU-Kakinada.</p>
+              <p className="text-sm text-muted-foreground">2016 - 2019 CGPA: 9.04/10 Coursework: DBMS, JAVA, C language, OS, OOAD, WebTechnologies, SoftwareEngineering.</p>
             </Card>
           </div>
         </div>
