@@ -3,7 +3,7 @@ const Projects = () => {
     <section className="py-20 px-4" id="portfolio">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gradient-primary mb-4">Portfolio</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gradient-primary mb-4">Harish Gudipudi Projectwork's</h2>
           <p className="text-muted-foreground text-lg">Some of my recent work</p>
         </div>
 
