@@ -12,7 +12,7 @@ const achievements = [
     title: "Python Certification - Kelly Technologies",
     description:
       "Completed Python certification from KAGGLE Technologies, gaining hands-on experience in data manipulation, visualization, and solving real-world problems using Python in an interactive learning environment.",
-    link: "https://drive.google.com/file/d/1oULC6vjcyEL32kAldj4Ava3P82F01dLX/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1YaSmLqG1p729fI5M2ygKnpX_sR3i1d2t/view?usp=drive_link",
   },
   {
     title: "Aws Cloud Assessment",
