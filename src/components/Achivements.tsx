@@ -5,7 +5,7 @@ const achievements = [
   {
     title: "Devops Learning Internship",
     description:
-      "Completed a Devops with Jenkins, Docker, Kubernetes internship at CODTECH IT Solutions Pvt.Ltd, working on live projects (Oct 2025 – Nov 2025), demonstrating enthusiasm and practical skills in Machine Learning concepts.",
+      "Completed a Devops with Jenkins, Docker, Kubernetes internship at CODTECH IT SOLUTIONS PVT.LTD, working on live projects (Oct 2025 – Nov 2025), demonstrating enthusiasm and practical skills in Machine Learning concepts.",
     link: "https://media.licdn.com/dms/image/v2/D562DAQFyBkkS7TSJeQ/profile-treasury-image-shrink_1280_1280/B56ZpSzQNhI0AU-/0/1762325760296?e=1765630800&v=beta&t=qkuhn6-9eC761S3tQkgAMCjMXVzidcyxfFApFBbg7MM",
   },
   {
