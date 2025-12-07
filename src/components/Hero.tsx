@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Download } from "lucide-react";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -61,6 +61,21 @@ const Hero = () => {
                 onClick={() => scrollToSection("demo")}
               >
                 View Demo
+              </Button>
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="group font-semibold border-primary text-primary hover:bg-primary hover:text-background transition-all duration-300"
+                asChild
+              >
+                <a 
+                  href="https://drive.google.com/file/d/1YaSmLqG1p729fI5M2ygKnpX_sR3i1d2t/view?usp=drive_link" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Download className="w-5 h-5 mr-2 group-hover:animate-bounce" />
+                  Download Resume
+                </a>
               </Button>
             </div>
             <div className="flex items-center gap-6 justify-center lg:justify-start pt-6 text-muted-foreground">
