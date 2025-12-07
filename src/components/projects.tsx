@@ -6,7 +6,7 @@
             </div>
             <div class="portfolio-item" data-aos="fade-in" data-aos-duration="300ms">
                 <div class="portfolio-img has-margin-right">
-                    <img src="map-removebg-preview.png" alt="">
+                    <img src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/map-removebg-preview.png?raw=true" alt="">
                 </div>
                 <div class="portfolio-description">
                     <h6>Project 1</h6>
@@ -27,7 +27,7 @@
                     <a href="" class="cta">View Project</a>
                 </div>
                 <div class="portfolio-img has-margin-left">
-                    <img src="port-removebg-preview.png" alt="">
+                    <img src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/port-removebg-preview.png?raw=true" alt="">
                 </div>
             </div>
             <div class="portfolio-item" data-aos="fade-in" data-aos-duration="300ms">
