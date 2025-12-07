@@ -32,7 +32,7 @@
             </div>
             <div class="portfolio-item" data-aos="fade-in" data-aos-duration="300ms">
                 <div class="portfolio-img has-margin-right">
-                    <img src="eco-removebg-preview.png  " alt="">
+                    <img src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/eco-removebg-preview.png?raw=true" alt="">
                 </div>
                 <div class="portfolio-description">
                     <h6>Project 3</h6>
