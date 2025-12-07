@@ -69,7 +69,7 @@ const Hero = () => {
                 asChild
               >
                 <a 
-                  href="https://drive.google.com/file/d/1YaSmLqG1p729fI5M2ygKnpX_sR3i1d2t/view?usp=drive_link" 
+                  href="https://1drv.ms/b/c/7a5d4e694f0f523a/EaRzNYlvcn1OsZhHJdHNZIMBSeyEBYriJH2F3iUTVpAOeQ?e=mko91J" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
