@@ -1,7 +1,28 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download } from "lucide-react";
+import { useState, useEffect } from "react";
+
+const greetings = [
+  { text: "Hello, I'm", name: "Harish Gudipudi", lang: "English" },
+  { text: "నమస్కారం, నేను", name: "హరీష్ గుడిపూడి", lang: "Telugu" },
+  { text: "नमस्ते, मैं हूं", name: "हरीश गुडिपूडी", lang: "Hindi" },
+];
 
 const Hero = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsAnimating(true);
+      setTimeout(() => {
+        setCurrentIndex((prev) => (prev + 1) % greetings.length);
+        setIsAnimating(false);
+      }, 300);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
@@ -24,8 +45,23 @@ const Hero = () => {
 
           {/* Hero Content */}
           <div className="flex-1 text-center lg:text-left space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="inline-block px-4 py-2 bg-primary/10 border border-primary rounded-full">
-              <span className="text-primary font-semibold">This is Harish (Gowda) Gudipudi</span>
+            {/* Hello Sticker */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-orange-500/20 border border-cyan-400/50 rounded-full animate-bounce">
+              <span className="text-2xl">👋</span>
+              <span className="text-cyan-400 font-bold text-lg">Hello!</span>
+            </div>
+            
+            {/* Animated Multilingual Name */}
+            <div className="min-h-[80px] flex flex-col items-center lg:items-start">
+              <p className={`text-lg text-muted-foreground transition-all duration-300 ${isAnimating ? 'opacity-0 translate-y-2' : 'opacity-100 translate-y-0'}`}>
+                {greetings[currentIndex].text}
+              </p>
+              <h2 className={`text-3xl md:text-4xl font-bold bg-gradient-to-r from-cyan-400 via-orange-400 to-cyan-400 bg-clip-text text-transparent transition-all duration-300 ${isAnimating ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
+                {greetings[currentIndex].name}
+              </h2>
+              <span className={`text-xs text-muted-foreground/60 mt-1 transition-all duration-300 ${isAnimating ? 'opacity-0' : 'opacity-100'}`}>
+                ({greetings[currentIndex].lang})
+              </span>
             </div>
             <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight">
               Building Cloud
