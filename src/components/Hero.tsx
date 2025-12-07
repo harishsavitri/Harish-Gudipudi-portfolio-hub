@@ -32,8 +32,8 @@ const Hero = () => {
               <span className="text-gradient-primary"> Infrastructure</span>
               <br />at Scale
             </h1>
-            <div class="about-details" data-aos="fade-up" data-aos-delay="300ms" >
-                <div class="about-heading">
+            <div className="about-details" data-aos="fade-up" data-aos-delay="300ms">
+                <div className="about-heading">
                     <h1>About Myself</h1>
                 </div>
             </div>
