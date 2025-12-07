@@ -4,19 +4,19 @@ import { Card } from "@/components/ui/card";
 const experiences = [
   {
     title: "Senior DevOps Engineer",
-    company: "Capgemini.",
+    company: "Capgemini,Hyd",
     period: "2026 - Present",
     description: "Leading cloud infrastructure migration to AWS, implementing CI/CD pipelines, and managing Kubernetes clusters for microservices architecture.",
   },
   {
     title: "DevOps Engineer",
-    company: "Cloud Innovations",
+    company: "Capgemini,Hyd",
     period: "2023 - 2025",
     description: "Automated infrastructure provisioning using Terraform, managed containerized applications with Docker, and optimized deployment processes.",
   },
   {
     title: "System Administrator",
-    company: "Digital Systems Corp",
+    company: "Digital Systems Corp,Hyd",
     period: "2020 - 2022",
     description: "Maintained Linux servers, implemented monitoring solutions, and collaborated with development teams on deployment strategies.",
   },
