@@ -12,7 +12,7 @@ const activities = [
   {
     icon: GitBranch,
     title: "CI/CD Pipeline Update",
-    description: "Implemented GitOps workflow with ArgoCD",
+    description: "Implemented Github workflow with Jenkins CI/CD pipeline",
     date: "5 days ago",
     color: "text-orange-400"
   },
