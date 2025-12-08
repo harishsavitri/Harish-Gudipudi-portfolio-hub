@@ -8,7 +8,7 @@ const greetings = [
   { text: "Hi! I'm An", name: "Traveler" },
 ];
 
-const Hero =  => {
+const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
