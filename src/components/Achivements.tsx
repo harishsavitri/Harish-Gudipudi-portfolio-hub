@@ -9,7 +9,7 @@ const achievements = [
     link: "https://media.licdn.com/dms/image/v2/D562DAQFyBkkS7TSJeQ/profile-treasury-image-shrink_1280_1280/B56ZpSzQNhI0AU-/0/1762325760296?e=1765630800&v=beta&t=qkuhn6-9eC761S3tQkgAMCjMXVzidcyxfFApFBbg7MM",
   },
   {
-    title: "Python Certification - Kelly Technologies",
+    title: "Python Certification - Kaggle Technologies",
     description:
       "Completed Python certification from KAGGLE Technologies, gaining hands-on experience in data manipulation, visualization, and solving real-world problems using Python in an interactive learning environment.",
     link: "https://drive.google.com/file/d/1YaSmLqG1p729fI5M2ygKnpX_sR3i1d2t/view?usp=drive_link",
