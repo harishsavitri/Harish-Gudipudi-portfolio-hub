@@ -7,7 +7,7 @@ const DemoVideo = () => {
             See It In <span className="text-gradient-accent">Action</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Watch how I architect and deploy scalable cloud infrastructure with automated CI/CD pipelines
+            Hello! everyone please Watch these my latest videos is here.
           </p>
         </div>
 
