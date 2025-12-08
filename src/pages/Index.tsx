@@ -7,6 +7,7 @@ import Resume from "@/components/Resume";
 import { Achievements } from "@/components/Achivements";
 import RecentActivity from "@/components/RecentActivity";
 import Contact from "@/components/Contact";
+import CodingProfile from "@/components/CodingProfile";
 
 const Index = () => {
   return (
@@ -29,6 +30,9 @@ const Index = () => {
       </div>
       <div id="achievements">
         <Achievements />
+      </div>
+      <div id="coding-profiles">
+        <CodingProfile />
       </div>
       <div id="recent-activity">
         <RecentActivity />
