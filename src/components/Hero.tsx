@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 
 const greetings = [
   { text: "Hello, I'm", name: "Devops Engineer" },
-  { text: "నమస్కారం, నేను", name: "Artist" },
-  { text: "नमस्ते, मैं हूं", name: "Traveler" },
+  { text: "Hello, I'm", name: "Artist" },
+  { text: "Hello, I'm", name: "Traveler" },
 ];
 
 const Hero = () => {
