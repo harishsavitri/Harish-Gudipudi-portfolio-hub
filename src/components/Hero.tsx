@@ -3,9 +3,10 @@ import { ArrowDown, Download } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const greetings = [
-  { text: "Hi!,I'm An", name: " Aws Devops Engineer" },
+  { text: "Hi!, I'm An", name: "Aws Devops Engineer" },
   { text: "Hi!, I'm An", name: "Indian" },
-  { text: "Hi!, I'm An", name: "Traveler" },
+  { text: "Hi!, I'm A", name: "Traveler" },
+  { text: "Hi!, This Is My", name: "Creative Life" },
 ];
 
 const Hero = () => {
@@ -59,9 +60,6 @@ const Hero = () => {
               <h2 className={`text-3xl md:text-4xl font-bold bg-gradient-to-r from-cyan-400 via-orange-400 to-cyan-400 bg-clip-text text-transparent transition-all duration-300 ${isAnimating ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
                 {greetings[currentIndex].name}
               </h2>
-              <span className={`text-xs text-muted-foreground/60 mt-1 transition-all duration-300 ${isAnimating ? 'opacity-0' : 'opacity-100'}`}>
-                ({greetings[currentIndex].lang})
-              </span>
             </div>
 
             
