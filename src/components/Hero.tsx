@@ -3,9 +3,9 @@ import { ArrowDown, Download } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const greetings = [
-  { text: "Hello, I'm", name: "Devops Engineer" },
-  { text: "Hello, I'm", name: "Artist" },
-  { text: "Hello, I'm", name: "Traveler" },
+  { text: "Hi!, I'm An", name: " Aws Devops Engineer" },
+  { text: "Hi!, I'm An", name: "Indian" },
+  { text: "Hi!, I'm An", name: "Traveler" },
 ];
 
 const Hero = () => {
