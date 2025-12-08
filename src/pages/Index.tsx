@@ -36,9 +36,25 @@ const Index = () => {
       <Contact />
       
       {/* Footer */}
-      <footer className="py-8 px-4 border-t border-border">
-        <div className="container text-center text-muted-foreground">
-          <p>© 2026 Made With By Harish Gudipudi, All Rights Reserved.</p>
+      <footer className="relative py-12 px-4 overflow-hidden">
+        {/* Gradient Background */}
+        <div className="absolute inset-0 bg-gradient-to-t from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-cyan-500 via-orange-500 to-cyan-500" />
+        
+        <div className="container relative text-center">
+          <div className="flex flex-col items-center gap-4">
+            {/* Heart Animation */}
+            <p className="text-lg text-muted-foreground flex items-center gap-2 flex-wrap justify-center">
+              <span>© 2026</span>
+              <span className="text-foreground font-semibold">Made With</span>
+              <span className="text-2xl animate-pulse">❤️</span>
+              <span className="text-foreground font-semibold">By</span>
+              <span className="bg-gradient-to-r from-cyan-400 to-orange-400 bg-clip-text text-transparent font-bold">
+                Harish Gudipudi
+              </span>
+            </p>
+            <p className="text-sm text-muted-foreground/70">All Rights Reserved.</p>
+          </div>
         </div>
       </footer>
     </div>
