@@ -112,7 +112,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex items-center gap-4 justify-center lg:justify-start pt-6">
               <a 
-                href="https://facebook.com" 
+                href="https://www.facebook.com/gudipudi.harish.9" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-gradient-to-r from-blue-600 to-blue-500 text-white hover:scale-110 hover:shadow-lg hover:shadow-blue-500/40 transition-all duration-300"
@@ -120,7 +120,7 @@ const Hero = () => {
                 <Facebook className="w-5 h-5" />
               </a>
               <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/gudipudiharish_gowda/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-orange-400 text-white hover:scale-110 hover:shadow-lg hover:shadow-pink-500/40 transition-all duration-300"
