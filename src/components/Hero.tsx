@@ -63,11 +63,8 @@ const Hero = () => {
                 ({greetings[currentIndex].lang})
               </span>
             </div>
-            <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight">
-              Building Cloud
-              <span className="text-gradient-primary"> Infrastructure</span>
-              <br />at Scale
-            </h1>
+
+            
             <div className="about-details" data-aos="fade-up" data-aos-delay="300ms">
                 <div className="about-heading">
                     <h1>About Myself</h1>
