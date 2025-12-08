@@ -129,7 +129,7 @@ const Hero = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://x.com/GHarish3951" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-gradient-to-r from-sky-400 to-sky-500 text-white hover:scale-110 hover:shadow-lg hover:shadow-sky-500/40 transition-all duration-300"
