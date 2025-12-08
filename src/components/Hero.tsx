@@ -32,22 +32,6 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center px-4 py-20">
       <div className="container max-w-6xl">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-          {/* Secondary Small Photo Frame - Left Side */}
-          <div className="hidden lg:flex flex-col items-center animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-pink-500 rounded-2xl blur-xl opacity-60 animate-pulse" />
-              <div className="relative w-24 h-24 rounded-2xl overflow-hidden border-3 border-orange-400 shadow-lg">
-                <img
-                  src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/harishpic.png?raw=true"
-                  alt="Harish Gudipudi"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-            <p className="mt-3 text-sm font-bold bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent text-center">
-              Harish<br/>Gudipudi
-            </p>
-          </div>
 
           {/* Main Photo Frame */}
           <div className="relative animate-fade-in">
