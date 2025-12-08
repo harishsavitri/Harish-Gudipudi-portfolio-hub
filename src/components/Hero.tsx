@@ -49,8 +49,8 @@ const Hero = () => {
             <div className="absolute inset-0 gradient-primary rounded-3xl blur-2xl opacity-50 animate-pulse" />
             <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-primary shadow-glow">
               <img
-                src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/harishpic.png?raw=true"
-                alt="AWS DevOps Engineer"
+                src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/mypic.png?raw=true"
+                alt="Harish Gowda Gudipudi"
                 className="w-full h-full object-cover"
               />
             </div>
