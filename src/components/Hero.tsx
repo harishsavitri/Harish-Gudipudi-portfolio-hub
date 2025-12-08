@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Download } from "lucide-react";
+import { ArrowDown, Download, Facebook, Instagram, Twitter } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const greetings = [
@@ -109,7 +109,35 @@ const Hero = () => {
                 </a>
               </Button>
             </div>
-            <div className="flex items-center gap-6 justify-center lg:justify-start pt-6 text-muted-foreground">
+            {/* Social Links */}
+            <div className="flex items-center gap-4 justify-center lg:justify-start pt-6">
+              <a 
+                href="https://facebook.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-gradient-to-r from-blue-600 to-blue-500 text-white hover:scale-110 hover:shadow-lg hover:shadow-blue-500/40 transition-all duration-300"
+              >
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://instagram.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-orange-400 text-white hover:scale-110 hover:shadow-lg hover:shadow-pink-500/40 transition-all duration-300"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://twitter.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-gradient-to-r from-sky-400 to-sky-500 text-white hover:scale-110 hover:shadow-lg hover:shadow-sky-500/40 transition-all duration-300"
+              >
+                <Twitter className="w-5 h-5" />
+              </a>
+            </div>
+            
+            <div className="flex items-center gap-6 justify-center lg:justify-start pt-4 text-muted-foreground">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                 <span>Available for Projects</span>
