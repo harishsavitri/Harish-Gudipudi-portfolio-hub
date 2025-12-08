@@ -4,7 +4,7 @@ const codingProfiles = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com",
+    url: "https://github.com/harishsavitri",
     stats: "50+ Repositories",
     color: "from-gray-700 to-gray-900",
     hoverColor: "hover:shadow-gray-500/40",
