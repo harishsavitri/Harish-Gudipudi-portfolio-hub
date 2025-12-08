@@ -12,7 +12,7 @@ const contactMethods = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+916303371886",
+    value: "+9163xxxxxx86",
     link: "cell:+916303371886",
   },
   {
