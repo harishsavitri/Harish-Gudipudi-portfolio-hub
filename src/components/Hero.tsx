@@ -3,12 +3,12 @@ import { ArrowDown, Download } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const greetings = [
-  { text: "Hi!, I'm An", name: " Aws Devops Engineer" },
-  { text: "Hi!, I'm An", name: "Indian" },
-  { text: "Hi!, I'm An", name: "Traveler" },
+  { text: "Hi! I'm An", name: " Aws Devops Engineer" },
+  { text: "Hi! I'm An", name: "Indian" },
+  { text: "Hi! I'm An", name: "Traveler" },
 ];
 
-const Hero = () => {
+const Hero =  => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
