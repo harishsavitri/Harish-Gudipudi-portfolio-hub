@@ -69,7 +69,7 @@ const Navigation = () => {
               onClick={() => handleMenuClick("hero")}
               className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-orange-400 bg-clip-text text-transparent hover:scale-105 transition-transform"
             >
-              Hi,I'm Harish Gowda Gudipudi 
+              I'm Harish Gowda Gudipudi 
             </button>
 
             {/* Desktop Menu */}
