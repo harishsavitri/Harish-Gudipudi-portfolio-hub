@@ -3,10 +3,10 @@ import { ArrowDown, Download, Facebook, Instagram, Twitter } from "lucide-react"
 import { useState, useEffect } from "react";
 
 const greetings = [
-  { text: "Hi!, I'm An", name: "Aws Devops Engineer" },
-  { text: "Hi!, I'm An", name: "Indian" },
-  { text: "Hi!, I'm A", name: "Traveler" },
-  { text: "Hi!, This Is My", name: "Creative Life" },
+  { text: "Hi, I'm An", name: "Aws Devops Engineer" },
+  { text: "Hi, I'm An", name: "Indian" },
+  { text: "Hi, I'm A", name: "Traveler" },
+  { text: "Hi, This Is My", name: "Creative Life" },
 ];
 
 const Hero = () => {
