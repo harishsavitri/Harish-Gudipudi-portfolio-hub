@@ -156,7 +156,7 @@ const Hero = () => {
                 <Send className="w-5 h-5 group-hover:animate-spin transition-transform" />
               </a>
               <a 
-                href="https://www.youtube.com/@yourusername" 
+                href="https://www.youtube.com/@harishgudiputi5760/videos" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-gradient-to-r from-red-500 to-red-600 text-white hover:scale-110 hover:shadow-lg hover:shadow-red-500/40 transition-all duration-300 group"
