@@ -74,7 +74,7 @@ const Projects = () => {
                 My skills in web development enabled me to create innovative, responsive web pages.
               </p>
               <a 
-                href="https://lovaraj02.github.io/ecommerce-website/" 
+                href="https://lovable.dev/projects/680d6277-8007-41df-bdb8-4b25776bb92e" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
