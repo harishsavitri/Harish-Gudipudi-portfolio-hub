@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Download, Facebook, Instagram, Twitter, Send, AtSign } from "lucide-react";
+import { ArrowDown, Download, Facebook, Instagram, Twitter, Send, Youtube } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const greetings = [
@@ -156,12 +156,12 @@ const Hero = () => {
                 <Send className="w-5 h-5 group-hover:animate-spin transition-transform" />
               </a>
               <a 
-                href="https://www.threads.net/@yourusername" 
+                href="https://www.youtube.com/@yourusername" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-gradient-to-r from-gray-800 to-gray-900 text-white hover:scale-110 hover:shadow-lg hover:shadow-gray-500/40 transition-all duration-300 group"
+                className="p-3 rounded-full bg-gradient-to-r from-red-500 to-red-600 text-white hover:scale-110 hover:shadow-lg hover:shadow-red-500/40 transition-all duration-300 group"
               >
-                <AtSign className="w-5 h-5 group-hover:animate-spin transition-transform" />
+                <Youtube className="w-5 h-5 group-hover:animate-spin transition-transform" />
               </a>
             </div>
             
