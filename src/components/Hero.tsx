@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Download, Facebook, Instagram, Twitter } from "lucide-react";
+import { ArrowDown, Download, Facebook, Instagram, Twitter, Send, AtSign } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const greetings = [
@@ -146,6 +146,22 @@ const Hero = () => {
                 className="p-3 rounded-full bg-gradient-to-r from-sky-400 to-sky-500 text-white hover:scale-110 hover:shadow-lg hover:shadow-sky-500/40 transition-all duration-300 group"
               >
                 <Twitter className="w-5 h-5 group-hover:animate-spin transition-transform" />
+              </a>
+              <a 
+                href="https://t.me/yourusername" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-gradient-to-r from-blue-400 to-cyan-500 text-white hover:scale-110 hover:shadow-lg hover:shadow-cyan-500/40 transition-all duration-300 group"
+              >
+                <Send className="w-5 h-5 group-hover:animate-spin transition-transform" />
+              </a>
+              <a 
+                href="https://www.threads.net/@yourusername" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-gradient-to-r from-gray-800 to-gray-900 text-white hover:scale-110 hover:shadow-lg hover:shadow-gray-500/40 transition-all duration-300 group"
+              >
+                <AtSign className="w-5 h-5 group-hover:animate-spin transition-transform" />
               </a>
             </div>
             
