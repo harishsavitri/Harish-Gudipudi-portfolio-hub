@@ -32,7 +32,7 @@ const DemoVideo = () => {
               className="w-full h-full object-cover"
               poster="https://plus.unsplash.com/premium_photo-1708589336783-13cf5e5efb65?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             >
-              <source src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/pub.mp4?raw=true" type="video/mp4" />
+              <source src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/natureworld.mp4?raw=true" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
