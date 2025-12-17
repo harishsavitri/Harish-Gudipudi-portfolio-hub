@@ -52,8 +52,6 @@ const Hero = () => {
               />
             </div>
           </div>
-          
-          
 
           {/* Hero Content */}
           <div className="flex-1 text-center lg:text-left space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -62,7 +60,8 @@ const Hero = () => {
               <span className="text-2xl">👋</span>
               <span className="text-cyan-400 font-bold text-lg">Hello!</span>
             </div>
-              {/* Animated Multilingual Name */}
+            
+            {/* Animated Multilingual Name */}
             <div className="min-h-[80px] flex flex-col items-center lg:items-start">
               <p className={`text-lg text-muted-foreground transition-all duration-300 ${isAnimating ? 'opacity-0 translate-y-2' : 'opacity-100 translate-y-0'}`}>
                 {greetings[currentIndex].text}
@@ -70,75 +69,47 @@ const Hero = () => {
               <h2 className={`text-3xl md:text-4xl font-bold bg-gradient-to-r from-cyan-400 via-orange-400 to-cyan-400 bg-clip-text text-transparent transition-all duration-300 ${isAnimating ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
                 {greetings[currentIndex].name}
               </h2>
-            </div>  
-            <div className="about-details" data-aos="fade-up" data-aos-delay="300ms">
-                <div className="about-heading">
-                    <h1>About Myself</h1>
-                </div>
             </div>
-            {/* Secondary Photo Frame */}
-          <div className="relative animate-fade-in">
-            {/* Triangle Animations */}
-            <div className="absolute -top-6 -left-6 w-0 h-0 border-l-[16px] border-l-transparent border-r-[16px] border-r-transparent border-b-[28px] border-b-orange-400 animate-zigzag opacity-80" style={{ animationDelay: '0.5s' }} />
-            <div className="absolute -top-8 -right-4 w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-b-[35px] border-b-cyan-400 animate-float-up-down opacity-80" style={{ animationDelay: '1s' }} />
-            <div className="absolute -bottom-4 -left-8 w-0 h-0 border-l-[14px] border-l-transparent border-r-[14px] border-r-transparent border-b-[24px] border-b-purple-400 animate-orbit opacity-80" style={{ animationDelay: '0.3s' }} />
-            <div className="absolute -bottom-6 -right-6 w-0 h-0 border-l-[18px] border-l-transparent border-r-[18px] border-r-transparent border-b-[31px] border-b-pink-400 animate-swing opacity-80" style={{ animationDelay: '0.7s' }} />
-            <div className="absolute top-1/3 -left-12 w-0 h-0 border-l-[13px] border-l-transparent border-r-[13px] border-r-transparent border-b-[22px] border-b-yellow-400 animate-pulse-scale opacity-70" style={{ animationDelay: '0.2s' }} />
-            <div className="absolute top-2/3 -right-12 w-0 h-0 border-l-[11px] border-l-transparent border-r-[11px] border-r-transparent border-b-[19px] border-b-green-400 animate-float-diagonal opacity-70" style={{ animationDelay: '0.8s' }} />
             
-            <div className="absolute inset-0 gradient-primary rounded-3xl blur-2xl opacity-50 animate-pulse" />
-            <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-primary shadow-glow">
-              <img
-                src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/mypic.png?raw=true"
-                alt="Harish Gowda Gudipudi"
-                className="w-full h-full object-cover"
-              />
+            <div className="about-details">
+              <div className="about-heading">
+                <h1 className="text-2xl font-bold text-primary">About Myself</h1>
+              </div>
             </div>
-          </div>
-            <div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>Configuration Management</span> <span class="pull-right">70%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Infrastructure as Code (IaC)</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span> Continuous Integration/Continuous Deployment (CI/CD) Tools</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Version Control Tools</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Containerization Tools</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
+
+            {/* Secondary Photo Frame */}
+            <div className="relative animate-fade-in">
+              {/* Triangle Animations */}
+              <div className="absolute -top-6 -left-6 w-0 h-0 border-l-[16px] border-l-transparent border-r-[16px] border-r-transparent border-b-[28px] border-b-orange-400 animate-zigzag opacity-80" style={{ animationDelay: '0.5s' }} />
+              <div className="absolute -top-8 -right-4 w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-b-[35px] border-b-cyan-400 animate-float-up-down opacity-80" style={{ animationDelay: '1s' }} />
+              <div className="absolute -bottom-4 -left-8 w-0 h-0 border-l-[14px] border-l-transparent border-r-[14px] border-r-transparent border-b-[24px] border-b-purple-400 animate-orbit opacity-80" style={{ animationDelay: '0.3s' }} />
+              <div className="absolute -bottom-6 -right-6 w-0 h-0 border-l-[18px] border-l-transparent border-r-[18px] border-r-transparent border-b-[31px] border-b-pink-400 animate-swing opacity-80" style={{ animationDelay: '0.7s' }} />
+              <div className="absolute top-1/3 -left-12 w-0 h-0 border-l-[13px] border-l-transparent border-r-[13px] border-r-transparent border-b-[22px] border-b-yellow-400 animate-pulse-scale opacity-70" style={{ animationDelay: '0.2s' }} />
+              <div className="absolute top-2/3 -right-12 w-0 h-0 border-l-[11px] border-l-transparent border-r-[11px] border-r-transparent border-b-[19px] border-b-green-400 animate-float-diagonal opacity-70" style={{ animationDelay: '0.8s' }} />
+              
+              <div className="absolute inset-0 gradient-primary rounded-3xl blur-2xl opacity-50 animate-pulse" />
+              <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-primary shadow-glow">
+                <img
+                  src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/mypic.png?raw=true"
+                  alt="Harish Gowda Gudipudi"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+
             <p className="text-xl text-muted-foreground max-w-2xl">
-              DevOps Engineer with a foundational background in MCA, leveraging a strong understanding of analytical and research methodologies to transition into cloud computing and automation. Passionate about integrating scientific principles with technology, I have gained hands-on experience with tools like Docker, Kubernetes, and Jenkins through dedicated learning and practical projects. My academic background equips me with a unique approach to problem-solving and process improvement, which I am eager to apply in a DevOps environment. Committed to continuous learning, I’m driven to contribute to the development and deployment of reliable, scalable systems.Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices. Passionate about automation, CI/CD, and infrastructure as code.    
+              DevOps Engineer with a foundational background in MCA, leveraging a strong understanding of analytical and research methodologies to transition into cloud computing and automation. Passionate about integrating scientific principles with technology, I have gained hands-on experience with tools like Docker, Kubernetes, and Jenkins through dedicated learning and practical projects.
             </p>
-<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>DevOps Engineer &amp; Analytics</span></li>
-									<li class="d-flex"><span>Domain:</span> <span>Could computing &amp; AWS DevOps Engineer</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Bachelor of science </span></li>
-									<li class="d-flex"><span>Language:</span> <span>English, Hindi , Marathi</span></li>
-									<!-- <li class="d-flex"><span>BI Tools:</span> <span>Microsoft PowerBI &amp; </span></li> -->
-									<li class="d-flex"><span>Other Skills:</span> <span>Cloud, Excel, Git, JIRA, Google Analytics &amp; SEO</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Teaching</span></li>
-									
-								</ul>
+
+            {/* About Info */}
+            <ul className="space-y-2 text-muted-foreground">
+              <li className="flex gap-2"><span className="text-primary font-semibold">Profile:</span> <span>DevOps Engineer & Analytics</span></li>
+              <li className="flex gap-2"><span className="text-primary font-semibold">Domain:</span> <span>Cloud Computing & AWS DevOps</span></li>
+              <li className="flex gap-2"><span className="text-primary font-semibold">Education:</span> <span>Bachelor of Science</span></li>
+              <li className="flex gap-2"><span className="text-primary font-semibold">Language:</span> <span>English, Hindi, Marathi</span></li>
+              <li className="flex gap-2"><span className="text-primary font-semibold">Other Skills:</span> <span>Cloud, Excel, Git, JIRA, Google Analytics & SEO</span></li>
+              <li className="flex gap-2"><span className="text-primary font-semibold">Interest:</span> <span>Traveling, Travel Photography, Teaching</span></li>
+            </ul>
             
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
               <Button 
@@ -172,6 +143,7 @@ const Hero = () => {
                 </a>
               </Button>
             </div>
+
             {/* Social Links */}
             <div className="flex items-center gap-4 justify-center lg:justify-start pt-6">
               <a 
@@ -215,10 +187,12 @@ const Hero = () => {
                 <Youtube className="w-5 h-5 group-hover:animate-spin transition-transform" />
               </a>
             </div>
-             {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <ArrowDown className="w-6 h-6 text-primary" />
-        </div>
+
+            {/* Scroll Indicator */}
+            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+              <ArrowDown className="w-6 h-6 text-primary" />
+            </div>
+
             <div className="flex items-center gap-6 justify-center lg:justify-start pt-4 text-muted-foreground">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
@@ -227,9 +201,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        
-
-       
       </div>
     </section>
   );
