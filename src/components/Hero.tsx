@@ -109,7 +109,15 @@ const Hero = () => {
               <li className="flex gap-2"><span className="text-primary font-semibold">Other Skills:</span> <span>Cloud, Excel, Git, JIRA, Google Analytics & SEO</span></li>
               <li className="flex gap-2"><span className="text-primary font-semibold">Interest:</span> <span>Traveling, Travel Photography, Listening Music</span></li>
             </ul>
-            
+            <div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="10">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/divya-satpute-68666a300/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
               <Button 
                 size="lg" 
