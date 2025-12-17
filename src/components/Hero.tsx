@@ -99,7 +99,16 @@ const Hero = () => {
             <p className="text-xl text-muted-foreground max-w-2xl">
               DevOps Engineer with a foundational background in MCA, leveraging a strong understanding of analytical and research methodologies to transition into cloud computing and automation. Passionate about integrating scientific principles with technology, I have gained hands-on experience with tools like Docker, Kubernetes, and Jenkins through dedicated learning and practical projects. My academic background equips me with a unique approach to problem-solving and process improvement, which I am eager to apply in a DevOps environment. Committed to continuous learning, I’m driven to contribute to the development and deployment of reliable, scalable systems.Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices. Passionate about automation, CI/CD, and infrastructure as code.    
             </p>
-
+<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>DevOps Engineer &amp; Analytics</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Could computing &amp; AWS DevOps Engineer</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of science </span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi , Marathi</span></li>
+									<!-- <li class="d-flex"><span>BI Tools:</span> <span>Microsoft PowerBI &amp; </span></li> -->
+									<li class="d-flex"><span>Other Skills:</span> <span>Cloud, Excel, Git, JIRA, Google Analytics &amp; SEO</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Teaching</span></li>
+									
+								</ul>
             
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
               <Button 
