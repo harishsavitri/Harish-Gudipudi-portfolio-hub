@@ -95,7 +95,9 @@ const Hero = () => {
               />
             </div>
           </div>
-            
+            <br>
+						<br>
+			            <h2>A Passionate DevOps Engineer</h2>
             <p className="text-xl text-muted-foreground max-w-2xl">
               Dynamic (MCA) Post graduate with a focus on Aws Devops Engineer, I am eager to Apply My Technical
                     Awareness and Innovative Problem-Solving Skills in a challenging AWs Devops role. Seeking a
