@@ -53,25 +53,7 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Secondary Photo Frame */}
-          <div className="relative animate-fade-in">
-            {/* Triangle Animations */}
-            <div className="absolute -top-6 -left-6 w-0 h-0 border-l-[16px] border-l-transparent border-r-[16px] border-r-transparent border-b-[28px] border-b-orange-400 animate-zigzag opacity-80" style={{ animationDelay: '0.5s' }} />
-            <div className="absolute -top-8 -right-4 w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-b-[35px] border-b-cyan-400 animate-float-up-down opacity-80" style={{ animationDelay: '1s' }} />
-            <div className="absolute -bottom-4 -left-8 w-0 h-0 border-l-[14px] border-l-transparent border-r-[14px] border-r-transparent border-b-[24px] border-b-purple-400 animate-orbit opacity-80" style={{ animationDelay: '0.3s' }} />
-            <div className="absolute -bottom-6 -right-6 w-0 h-0 border-l-[18px] border-l-transparent border-r-[18px] border-r-transparent border-b-[31px] border-b-pink-400 animate-swing opacity-80" style={{ animationDelay: '0.7s' }} />
-            <div className="absolute top-1/3 -left-12 w-0 h-0 border-l-[13px] border-l-transparent border-r-[13px] border-r-transparent border-b-[22px] border-b-yellow-400 animate-pulse-scale opacity-70" style={{ animationDelay: '0.2s' }} />
-            <div className="absolute top-2/3 -right-12 w-0 h-0 border-l-[11px] border-l-transparent border-r-[11px] border-r-transparent border-b-[19px] border-b-green-400 animate-float-diagonal opacity-70" style={{ animationDelay: '0.8s' }} />
-            
-            <div className="absolute inset-0 gradient-primary rounded-3xl blur-2xl opacity-50 animate-pulse" />
-            <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-primary shadow-glow">
-              <img
-                src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/mypic.png?raw=true"
-                alt="Harish Gowda Gudipudi"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
+          
 
           {/* Hero Content */}
           <div className="flex-1 text-center lg:text-left space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -97,6 +79,25 @@ const Hero = () => {
                     <h1>About Myself</h1>
                 </div>
             </div>
+            {/* Secondary Photo Frame */}
+          <div className="relative animate-fade-in">
+            {/* Triangle Animations */}
+            <div className="absolute -top-6 -left-6 w-0 h-0 border-l-[16px] border-l-transparent border-r-[16px] border-r-transparent border-b-[28px] border-b-orange-400 animate-zigzag opacity-80" style={{ animationDelay: '0.5s' }} />
+            <div className="absolute -top-8 -right-4 w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-b-[35px] border-b-cyan-400 animate-float-up-down opacity-80" style={{ animationDelay: '1s' }} />
+            <div className="absolute -bottom-4 -left-8 w-0 h-0 border-l-[14px] border-l-transparent border-r-[14px] border-r-transparent border-b-[24px] border-b-purple-400 animate-orbit opacity-80" style={{ animationDelay: '0.3s' }} />
+            <div className="absolute -bottom-6 -right-6 w-0 h-0 border-l-[18px] border-l-transparent border-r-[18px] border-r-transparent border-b-[31px] border-b-pink-400 animate-swing opacity-80" style={{ animationDelay: '0.7s' }} />
+            <div className="absolute top-1/3 -left-12 w-0 h-0 border-l-[13px] border-l-transparent border-r-[13px] border-r-transparent border-b-[22px] border-b-yellow-400 animate-pulse-scale opacity-70" style={{ animationDelay: '0.2s' }} />
+            <div className="absolute top-2/3 -right-12 w-0 h-0 border-l-[11px] border-l-transparent border-r-[11px] border-r-transparent border-b-[19px] border-b-green-400 animate-float-diagonal opacity-70" style={{ animationDelay: '0.8s' }} />
+            
+            <div className="absolute inset-0 gradient-primary rounded-3xl blur-2xl opacity-50 animate-pulse" />
+            <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-primary shadow-glow">
+              <img
+                src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/mypic.png?raw=true"
+                alt="Harish Gowda Gudipudi"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
             <p className="text-xl text-muted-foreground max-w-2xl">
               Dynamic (MCA) Post graduate with a focus on Aws Devops Engineer, I am eager to Apply My Technical
                     Awareness and Innovative Problem-Solving Skills in a challenging AWs Devops role. Seeking a
