@@ -68,25 +68,49 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        "float-up-down": {
+          "0%, 100%": { transform: "translateY(0) rotate(0deg)" },
+          "50%": { transform: "translateY(-15px) rotate(180deg)" },
+        },
+        "orbit": {
+          "0%": { transform: "rotate(0deg) translateX(20px) rotate(0deg)" },
+          "100%": { transform: "rotate(360deg) translateX(20px) rotate(-360deg)" },
+        },
+        "zigzag": {
+          "0%, 100%": { transform: "translateX(0) translateY(0) rotate(0deg)" },
+          "25%": { transform: "translateX(10px) translateY(-10px) rotate(90deg)" },
+          "50%": { transform: "translateX(0) translateY(-20px) rotate(180deg)" },
+          "75%": { transform: "translateX(-10px) translateY(-10px) rotate(270deg)" },
+        },
+        "pulse-scale": {
+          "0%, 100%": { transform: "scale(1)", opacity: "0.7" },
+          "50%": { transform: "scale(1.3)", opacity: "1" },
+        },
+        "swing": {
+          "0%, 100%": { transform: "rotate(-20deg)" },
+          "50%": { transform: "rotate(20deg)" },
+        },
+        "float-diagonal": {
+          "0%, 100%": { transform: "translate(0, 0) rotate(0deg)" },
+          "50%": { transform: "translate(15px, -15px) rotate(45deg)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float-up-down": "float-up-down 3s ease-in-out infinite",
+        "orbit": "orbit 6s linear infinite",
+        "zigzag": "zigzag 4s ease-in-out infinite",
+        "pulse-scale": "pulse-scale 2s ease-in-out infinite",
+        "swing": "swing 2s ease-in-out infinite",
+        "float-diagonal": "float-diagonal 3.5s ease-in-out infinite",
       },
     },
   },
