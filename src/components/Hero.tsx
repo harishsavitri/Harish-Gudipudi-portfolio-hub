@@ -95,14 +95,10 @@ const Hero = () => {
               />
             </div>
           </div>
-            <br>
-						<br>
-			            <h2>A Passionate DevOps Engineer</h2>
+            
             <p className="text-xl text-muted-foreground max-w-2xl">
-              Dynamic (MCA) Post graduate with a focus on Aws Devops Engineer, I am eager to Apply My Technical
-                    Awareness and Innovative Problem-Solving Skills in a challenging AWs Devops role. Seeking a
-                    position where I can contribute to Cutting-Edge Projects using Fast Growing Technologies and Collaborate
-                    with a Forward-Thinking team.
+              DevOps Engineer with a foundational background in MCA, leveraging a strong understanding of analytical and research methodologies to transition into cloud computing and automation. Passionate about integrating scientific principles with technology, I have gained hands-on experience with tools like Docker, Kubernetes, and Jenkins through dedicated learning and practical projects. My academic background equips me with a unique approach to problem-solving and process improvement, which I am eager to apply in a DevOps environment. Committed to continuous learning, I’m driven to contribute to the development and deployment of reliable, scalable systems..</p>
+			  
                     Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices.
                     Passionate about automation, CI/CD, and infrastructure as code.    
             </p>
