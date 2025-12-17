@@ -95,10 +95,7 @@ const Hero = () => {
               />
             </div>
           </div>
-            {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <ArrowDown className="w-6 h-6 text-primary" />
-        </div>
+            
             <p className="text-xl text-muted-foreground max-w-2xl">
               Dynamic (MCA) Post graduate with a focus on Aws Devops Engineer, I am eager to Apply My Technical
                     Awareness and Innovative Problem-Solving Skills in a challenging AWs Devops role. Seeking a
@@ -184,7 +181,10 @@ const Hero = () => {
                 <Youtube className="w-5 h-5 group-hover:animate-spin transition-transform" />
               </a>
             </div>
-            
+             {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+          <ArrowDown className="w-6 h-6 text-primary" />
+        </div>
             <div className="flex items-center gap-6 justify-center lg:justify-start pt-4 text-muted-foreground">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
@@ -195,10 +195,7 @@ const Hero = () => {
         </div>
         
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <ArrowDown className="w-6 h-6 text-primary" />
-        </div>
+       
       </div>
     </section>
   );
