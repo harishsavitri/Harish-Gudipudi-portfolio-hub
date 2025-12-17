@@ -95,6 +95,10 @@ const Hero = () => {
               />
             </div>
           </div>
+            {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+          <ArrowDown className="w-6 h-6 text-primary" />
+        </div>
             <p className="text-xl text-muted-foreground max-w-2xl">
               Dynamic (MCA) Post graduate with a focus on Aws Devops Engineer, I am eager to Apply My Technical
                     Awareness and Innovative Problem-Solving Skills in a challenging AWs Devops role. Seeking a
