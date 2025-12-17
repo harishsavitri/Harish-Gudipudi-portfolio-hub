@@ -98,17 +98,17 @@ const Hero = () => {
             </div>
 
             <p className="text-xl text-muted-foreground max-w-2xl">
-              DevOps Engineer with a foundational background in MCA, leveraging a strong understanding of analytical and research methodologies to transition into cloud computing and automation. Passionate about integrating scientific principles with technology, I have gained hands-on experience with tools like Docker, Kubernetes, and Jenkins through dedicated learning and practical projects.My academic background equips me with a unique approach to problem-solving and process improvement, which I am eager to apply in a DevOps environment. Committed to continuous learning, I’m driven to contribute to the development and deployment of reliable, scalable systems.
+              DevOps Engineer with a foundational background in MCA, leveraging a strong understanding of analytical and research methodologies to transition into cloud computing and automation. Passionate about integrating scientific principles with technology, I have gained hands-on experience with tools like Docker, Kubernetes, and Jenkins through dedicated learning and practical projects.My academic background equips me with a unique approach to problem-solving and process improvement, which I am eager to apply in a DevOps environment. Committed to continuous learning, I’m driven to contribute to the development and deployment of reliable, scalable systems..
             </p>
 
             {/* About Info */}
             <ul className="space-y-2 text-muted-foreground">
               <li className="flex gap-2"><span className="text-primary font-semibold">Profile:</span> <span>DevOps Engineer & Analytics</span></li>
               <li className="flex gap-2"><span className="text-primary font-semibold">Domain:</span> <span>Cloud Computing & AWS DevOps</span></li>
-              <li className="flex gap-2"><span className="text-primary font-semibold">Education:</span> <span>Bachelor of Science</span></li>
-              <li className="flex gap-2"><span className="text-primary font-semibold">Language:</span> <span>English, Hindi, Marathi</span></li>
+              <li className="flex gap-2"><span className="text-primary font-semibold">Education:</span> <span>Master Of Computer Applications</span></li>
+              <li className="flex gap-2"><span className="text-primary font-semibold">Language:</span> <span>English, Hindi, Telugu</span></li>
               <li className="flex gap-2"><span className="text-primary font-semibold">Other Skills:</span> <span>Cloud, Excel, Git, JIRA, Google Analytics & SEO</span></li>
-              <li className="flex gap-2"><span className="text-primary font-semibold">Interest:</span> <span>Traveling, Travel Photography, Teaching</span></li>
+              <li className="flex gap-2"><span className="text-primary font-semibold">Interest:</span> <span>Traveling, Travel Photography, Listening Music</span></li>
             </ul>
             
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
