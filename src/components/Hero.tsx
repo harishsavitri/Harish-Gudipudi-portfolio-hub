@@ -97,10 +97,7 @@ const Hero = () => {
           </div>
             
             <p className="text-xl text-muted-foreground max-w-2xl">
-              DevOps Engineer with a foundational background in MCA, leveraging a strong understanding of analytical and research methodologies to transition into cloud computing and automation. Passionate about integrating scientific principles with technology, I have gained hands-on experience with tools like Docker, Kubernetes, and Jenkins through dedicated learning and practical projects. My academic background equips me with a unique approach to problem-solving and process improvement, which I am eager to apply in a DevOps environment. Committed to continuous learning, I’m driven to contribute to the development and deployment of reliable, scalable systems..</p>
-			  
-                    Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices.
-                    Passionate about automation, CI/CD, and infrastructure as code.    
+              DevOps Engineer with a foundational background in MCA, leveraging a strong understanding of analytical and research methodologies to transition into cloud computing and automation. Passionate about integrating scientific principles with technology, I have gained hands-on experience with tools like Docker, Kubernetes, and Jenkins through dedicated learning and practical projects. My academic background equips me with a unique approach to problem-solving and process improvement, which I am eager to apply in a DevOps environment. Committed to continuous learning, I’m driven to contribute to the development and deployment of reliable, scalable systems.Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices. Passionate about automation, CI/CD, and infrastructure as code.    
             </p>
 
             
