@@ -62,18 +62,7 @@ const Hero = () => {
               <span className="text-2xl">👋</span>
               <span className="text-cyan-400 font-bold text-lg">Hello!</span>
             </div>
-            
-            {/* Animated Multilingual Name */}
-            <div className="min-h-[80px] flex flex-col items-center lg:items-start">
-              <p className={`text-lg text-muted-foreground transition-all duration-300 ${isAnimating ? 'opacity-0 translate-y-2' : 'opacity-100 translate-y-0'}`}>
-                {greetings[currentIndex].text}
-              </p>
-              <h2 className={`text-3xl md:text-4xl font-bold bg-gradient-to-r from-cyan-400 via-orange-400 to-cyan-400 bg-clip-text text-transparent transition-all duration-300 ${isAnimating ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
-                {greetings[currentIndex].name}
-              </h2>
-            </div>
-
-            
+                
             <div className="about-details" data-aos="fade-up" data-aos-delay="300ms">
                 <div className="about-heading">
                     <h1>About Myself</h1>
@@ -106,7 +95,16 @@ const Hero = () => {
                     Architecting robust, scalable cloud solutions with AWS, Kubernetes, and modern DevOps practices.
                     Passionate about automation, CI/CD, and infrastructure as code.    
             </p>
-                    
+
+            {/* Animated Multilingual Name */}
+            <div className="min-h-[80px] flex flex-col items-center lg:items-start">
+              <p className={`text-lg text-muted-foreground transition-all duration-300 ${isAnimating ? 'opacity-0 translate-y-2' : 'opacity-100 translate-y-0'}`}>
+                {greetings[currentIndex].text}
+              </p>
+              <h2 className={`text-3xl md:text-4xl font-bold bg-gradient-to-r from-cyan-400 via-orange-400 to-cyan-400 bg-clip-text text-transparent transition-all duration-300 ${isAnimating ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
+                {greetings[currentIndex].name}
+              </h2>
+            </div>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
               <Button 
                 size="lg" 
