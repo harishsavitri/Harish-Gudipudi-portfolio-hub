@@ -109,15 +109,20 @@ const Hero = () => {
               <li className="flex gap-2"><span className="text-primary font-semibold">Other Skills:</span> <span>Cloud, Excel, Git, JIRA, Google Analytics & SEO</span></li>
               <li className="flex gap-2"><span className="text-primary font-semibold">Interest:</span> <span>Traveling, Travel Photography, Listening Music</span></li>
             </ul>
-            <div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
-									<span class="number" data-number="10">10</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
-								</p>
-								<p><a href="https://www.linkedin.com/in/divya-satpute-68666a300/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-							</div>
-						</div>
+            <div className="flex items-center gap-4 mt-4">
+              <div className="text-center">
+                <span className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">10+</span>
+                <p className="text-muted-foreground text-sm">Projects Completed</p>
+              </div>
+              <a 
+                href="https://www.linkedin.com/in/harish-gudipudi-16b71724a/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 bg-gradient-to-r from-blue-600 to-blue-500 text-white rounded-full hover:scale-105 transition-transform"
+              >
+                LinkedIn
+              </a>
+            </div>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
               <Button 
                 size="lg" 
