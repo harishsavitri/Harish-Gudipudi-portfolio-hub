@@ -3,10 +3,10 @@ import { ArrowDown, Download, Facebook, Instagram, Twitter, Send, Youtube } from
 import { useState, useEffect } from "react";
 
 const greetings = [
-  { text: "Hi, I'm An", name: "Aws Devops Engineer" },
-  { text: "Hi, I'm An", name: "Indian" },
-  { text: "Hi, I'm A", name: "Traveler" },
-  { text: "Hi, This Is My", name: "Creative Life" },
+  { text: "I'm,  Into", name: "Aws Devops Engineer" },
+  { text: "I'm,  An", name: "Indian" },
+  { text: "I'm,  A", name: "Traveler" },
+  { text: "This Is My", name: "Creative Life" },
 ];
 
 const Hero = () => {
@@ -115,7 +115,7 @@ const Hero = () => {
                 <p className="text-muted-foreground text-sm">Projects Completed</p>
               </div>
               <a 
-                href="https://www.linkedin.com/in/harish-gudipudi-16b71724a/" 
+                href="https://www.linkedin.com/in/harish-gudipudi-b98726178//" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-gradient-to-r from-blue-600 to-blue-500 text-white rounded-full hover:scale-105 transition-transform"
