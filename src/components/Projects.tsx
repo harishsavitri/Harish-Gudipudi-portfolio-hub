@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Deploying Super Mario on Kubernetes",
       description: "Deploy a Super Mario game on Amazon's Elastic Kubernetes Service (EKS) with scalability, reliability, and easy management.",
       link: "https://learnwithdivya.hashnode.dev/deploying-super-mario-on-kubernetes",
-      image: "/workpic1.png"
+      image: "/awseks.webp"
     },
     {
       title: "Valentine's Day Special CI/CD Project",
