@@ -18,13 +18,13 @@ const achievements = [
     title: "Aws Cloud Assessment",
     description:
       "Completed a one-month internship in Aws Cloud Assessment at LearnTube.Ai (Oct 2025), gaining practical experience in building user-friendly and interactive aws cloud services.",
-    link: "https://media.licdn.com/dms/image/v2/D562DAQHF-J-Q17ep-Q/profile-treasury-image-shrink_800_800/B56ZpAl0vGI0AY-/0/1762020260203?e=1765630800&v=beta&t=J_fbBVcCNocpbN0AE-LjlLjHyN3BFbwCSlDU8TEUCA0",
+    link: "https://media.licdn.com/dms/image/v2/D562DAQHF-J-Q17ep-Q/profile-treasury-image-shrink_800_800/B56ZpAl0vGI0AY-/0/1762020260203?e=1766638800&v=beta&t=vzEcX6Y-eT_Nr-18uvzv743FM41p2N09IAkmZAc26DM",
   },
   {
     title: "Linux Certification",
     description:
       'Completed the "Introduction to Linux" certification from FRONTLINES EDUTECH PRIVATE LIMITED (April 2025), gaining foundational knowledge in Linux server technologies and their Adminstraction.',
-    link: "https://media.licdn.com/dms/image/v2/D562DAQFz8xSlQpWkfw/profile-treasury-image-shrink_1920_1920/B56ZpAkNMIJwAc-/0/1762019827671?e=1765630800&v=beta&t=UctX9Zb9xO5M9Mb-LkCvJAvFtJsZymfbYNf2yOwGb5o",
+    link: "https://media.licdn.com/dms/image/v2/D562DAQFz8xSlQpWkfw/profile-treasury-image-shrink_1920_1920/B56ZpAkNMIJwAc-/0/1762019827671?e=1766638800&v=beta&t=5tfDsuqklgKebQHZDJ4JUNU7aOkxQIKl39-RzGqf7-c",
   },
 ];
 
