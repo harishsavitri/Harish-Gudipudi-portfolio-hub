@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "Full Stack CICD DevOps Project",
       description: "Implemented a robust multi-tier pipeline integrated with SSL certificates. This project automates and secures deployment processes!",
-      link: "https://www.linkedin.com/posts/divya-satpute_18days18projects-devops-teacode1122-activity-7286011899702337537-R61A",
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7407259191255470080/",
       image: "/workpic3.png"
     },
     {
