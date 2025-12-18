@@ -12,7 +12,7 @@ const Projects = () => {
       title: "Production Level CICD Pipeline Project",
       description: "Integrating Git, Jenkins, Docker, Kubernetes, Ansible, and Terraform on AWS to automate deployments with robust error handling and security best practices.",
       link: "https://learnwithdivya.hashnode.dev/production-level-cicd-pipeline-project-cicd-devops-project",
-      image: "/workpic2.png"
+      image: "/teacode.webp"
     },
     {
       title: "Full Stack CICD DevOps Project",
