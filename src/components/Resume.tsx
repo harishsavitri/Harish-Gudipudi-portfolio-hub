@@ -100,7 +100,7 @@ const Resume = () => {
                 <div className="relative w-full h-32 rounded-xl overflow-hidden border-4 border-transparent bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 p-[3px]">
                   <div className="w-full h-full rounded-lg overflow-hidden bg-gradient-to-br from-blue-900/80 to-purple-900/80 flex items-center justify-center">
                     <img 
-                      src="https://images.unsplash.com/photo-1562774053-701939374585?w=400&h=200&fit=crop" 
+                      src="https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/lbrce.jpg?raw=true" 
                       alt="LBRCE Campus"
                       className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
                     />
