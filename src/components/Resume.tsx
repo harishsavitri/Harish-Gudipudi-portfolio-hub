@@ -89,15 +89,47 @@ const Resume = () => {
             </Card>
 
             <div className="flex items-center gap-3 mb-6 mt-8">
-              <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
-                <GraduationCap className="w-5 h-5 text-foreground" />
+              <div className="w-10 h-10 rounded-lg bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center">
+                <GraduationCap className="w-5 h-5 text-white" />
               </div>
               <h3 className="text-2xl font-bold">Education</h3>
             </div>
-            <Card className="p-6 bg-card border-border animate-fade-in" style={{ animationDelay: "0.4s" }}>
-              <h4 className="font-bold text-lg mb-1">MCA. (Master of Computer Applications)</h4>
-              <p className="text-muted-foreground text-sm mb-2">Lakireddy Bali Reddy College Of Engineering & Technology(Autonomous),JNTU-Kakinada.</p>
-              <p className="text-sm text-muted-foreground">2016 - 2019 CGPA: 9.04/10 Coursework: DBMS, JAVA, C language, OS, OOAD, WebTechnologies, SoftwareEngineering.</p>
+            <Card className="p-6 bg-card border-border animate-fade-in overflow-hidden" style={{ animationDelay: "0.4s" }}>
+              {/* Institute Photo Frame */}
+              <div className="relative mb-4 group">
+                <div className="relative w-full h-32 rounded-xl overflow-hidden border-4 border-transparent bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 p-[3px]">
+                  <div className="w-full h-full rounded-lg overflow-hidden bg-gradient-to-br from-blue-900/80 to-purple-900/80 flex items-center justify-center">
+                    <img 
+                      src="https://images.unsplash.com/photo-1562774053-701939374585?w=400&h=200&fit=crop" 
+                      alt="LBRCE Campus"
+                      className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+                    <div className="absolute bottom-2 left-3 right-3">
+                      <p className="text-xs font-semibold text-white drop-shadow-lg">LBRCE Campus, Mylavaram</p>
+                    </div>
+                  </div>
+                </div>
+                {/* Floating decoration */}
+                <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full animate-pulse flex items-center justify-center">
+                  <span className="text-xs">🎓</span>
+                </div>
+              </div>
+              
+              <h4 className="font-bold text-lg mb-1 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                MCA (Master of Computer Applications)
+              </h4>
+              <p className="text-foreground font-medium text-sm mb-2">
+                Lakireddy Bali Reddy College Of Engineering & Technology (Autonomous)
+              </p>
+              <p className="text-muted-foreground text-xs mb-3">JNTU-Kakinada</p>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="px-2 py-1 bg-primary/20 text-primary text-xs rounded-full">2016 - 2019</span>
+                <span className="px-2 py-1 bg-green-500/20 text-green-400 text-xs rounded-full">CGPA: 9.04/10</span>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                <span className="text-primary font-medium">Coursework:</span> DBMS, JAVA, C Language, OS, OOAD, Web Technologies, Software Engineering
+              </p>
             </Card>
           </div>
         </div>
