@@ -30,7 +30,7 @@ const Projects = () => {
       title: "Valentine's Day Special CI/CD Project",
       description: "Implementing a seamless CI/CD pipeline, automating deployments, integrating Git, Jenkins, Docker for efficiency.",
       link: "https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb",
-      image: "/workpic2.png"
+      image: "/jenkins.webp"
     }
   ];
 
