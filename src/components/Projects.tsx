@@ -6,7 +6,7 @@ const Projects = () => {
       title: "Lift And Shift Application Workload (AWS Project)",
       description: "Briefly introduce the concept of a Multi-Tier Web Application. Explain the Lift and Shift Strategy and why it's useful for migrating applications to AWS.",
       link: "https://learnwithdivya.hashnode.dev/lift-and-shift-application-workload-aws-project",
-      image: "/awspic.webp"
+      image: "https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/awspic.webp?raw=true"
     },
     {
       title: "Production Level CICD Pipeline Project",
