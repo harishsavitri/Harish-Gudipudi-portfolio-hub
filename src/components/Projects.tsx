@@ -18,7 +18,7 @@ const Projects = () => {
       title: "Full Stack CICD DevOps Project",
       description: "Implemented a robust multi-tier pipeline integrated with SSL certificates. This project automates and secures deployment processes!",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7407259191255470080/",
-      image: "/workpic3.png"
+      image: "/kubernetes.gif"
     },
     {
       title: "Deploying Super Mario on Kubernetes",
