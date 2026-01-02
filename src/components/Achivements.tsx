@@ -6,25 +6,25 @@ const achievements = [
     title: "Devops Learning Internship",
     description:
       "Completed a Devops with Jenkins, Docker, Kubernetes internship at CODTECH IT SOLUTIONS PVT.LTD, working on live projects (Oct 2025 – Nov 2025), demonstrating enthusiasm and practical skills in Machine Learning concepts.",
-    link: "",
+    link: "https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/devops.jpeg?raw=true",
   },
   {
     title: "Python Certification - Kaggle Technologies",
     description:
       "Completed Python certification from KAGGLE Technologies, gaining hands-on experience in data manipulation, visualization, and solving real-world problems using Python in an interactive learning environment.",
-    link: "https://drive.google.com/file/d/1YaSmLqG1p729fI5M2ygKnpX_sR3i1d2t/view?usp=drive_link",
+    link: "https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/python.png?raw=true",
   },
   {
     title: "Aws Cloud Assessment",
     description:
       "Completed a one-month internship in Aws Cloud Assessment at LearnTube.Ai (Oct 2025), gaining practical experience in building user-friendly and interactive aws cloud services.",
-    link: "",
+    link: "https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/aws.jpeg?raw=true",
   },
   {
     title: "Linux Certification",
     description:
       'Completed the "Introduction to Linux" certification from FRONTLINES EDUTECH PRIVATE LIMITED (April 2025), gaining foundational knowledge in Linux server technologies and their Adminstraction.',
-    link: "",
+    link: "https://github.com/harishsavitri/Harish-Gudipudi-portfolio-hub/blob/main/linux.jpeg?raw=true",
   },
 ];
 
