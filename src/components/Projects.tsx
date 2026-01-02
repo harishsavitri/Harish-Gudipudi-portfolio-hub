@@ -51,21 +51,6 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Featured Project Images Banner */}
-        <div className="mb-12 overflow-hidden rounded-2xl border border-border/50">
-          <div className="flex animate-[slide-in-right_20s_linear_infinite] gap-4 p-4 bg-card/30 backdrop-blur-sm">
-            {[...projects, ...projects].map((project, index) => (
-              <div key={index} className="flex-shrink-0 w-64 h-40 rounded-xl overflow-hidden border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:scale-105">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <a
