@@ -9,11 +9,13 @@ import { Achievements } from "@/components/Achivements";
 import RecentActivity from "@/components/RecentActivity";
 import Contact from "@/components/Contact";
 import CodingProfile from "@/components/CodingProfile";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
+      <WhatsAppButton />
       <div id="hero">
         <Hero />
       </div>
