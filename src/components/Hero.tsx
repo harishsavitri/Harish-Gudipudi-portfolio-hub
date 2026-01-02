@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Facebook, Instagram, Twitter, Send, Youtube } from "lucide-react";
 import { useState, useEffect } from "react";
+import SkillPercentage from "./percentage";
 
 const greetings = [
   { text: "I'm,  Into", name: "Aws Devops Engineer" },
@@ -96,6 +97,12 @@ const Hero = () => {
                 />
               </div>
             </div>
+            
+            {/* Skill Percentage Section */}
+            <div className="mt-6 p-4 bg-card/50 rounded-xl border border-border">
+              <SkillPercentage />
+            </div>
+            
             <p className="text-xl text-muted-foreground max-w-2xl">
               DevOps Engineer with a foundational background in MCA, leveraging a strong understanding of analytical and research methodologies to transition into cloud computing and automation. Passionate about integrating scientific principles with technology, I have gained hands-on experience with tools like Docker, Kubernetes, and Jenkins through dedicated learning and practical projects.My academic background equips me with a unique approach to problem-solving and process improvement, which I am eager to apply in a DevOps environment. Committed to continuous learning, I’m driven to contribute to the development and deployment of reliable, scalable systems..
             </p>
