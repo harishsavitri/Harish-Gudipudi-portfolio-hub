@@ -1,32 +1,31 @@
-<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>Configuration Management</span> <span class="pull-right">70%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Infrastructure as Code (IaC)</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span> Continuous Integration/Continuous Deployment (CI/CD) Tools</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Version Control Tools</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Containerization Tools</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-								</div>
+const SkillPercentage = () => {
+  const skills = [
+    { name: "Configuration Management", percentage: 70 },
+    { name: "Infrastructure as Code (IaC)", percentage: 85 },
+    { name: "CI/CD Tools", percentage: 90 },
+    { name: "Version Control Tools", percentage: 85 },
+    { name: "Containerization Tools", percentage: 80 },
+  ];
+
+  return (
+    <div className="space-y-4">
+      <p className="text-lg font-semibold text-primary mb-4">Skills</p>
+      {skills.map((skill, index) => (
+        <div key={index} className="space-y-1">
+          <div className="flex justify-between text-sm">
+            <span className="text-foreground">{skill.name}</span>
+            <span className="text-primary">{skill.percentage}%</span>
+          </div>
+          <div className="h-2 bg-muted rounded-full overflow-hidden">
+            <div
+              className="h-full bg-gradient-to-r from-primary to-blue-400 rounded-full transition-all duration-1000"
+              style={{ width: `${skill.percentage}%` }}
+            />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default SkillPercentage;
