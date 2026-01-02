@@ -6,21 +6,21 @@ const Projects = () => {
       title: "Lift And Shift Application Workload (AWS Project)",
       description: "Briefly introduce the concept of a Multi-Tier Web Application. Explain the Lift and Shift Strategy and why it's useful for migrating applications to AWS.",
       link: "https://learnwithdivya.hashnode.dev/lift-and-shift-application-workload-aws-project",
-      image: "/awspic.webp",
+      image: "/workpic1.png",
       tags: ["AWS", "Migration", "Multi-Tier"]
     },
     {
       title: "Production Level CICD Pipeline Project",
       description: "Integrating Git, Jenkins, Docker, Kubernetes, Ansible, and Terraform on AWS to automate deployments with robust error handling and security best practices.",
       link: "https://learnwithdivya.hashnode.dev/production-level-cicd-pipeline-project-cicd-devops-project",
-      image: "/teacode.webp",
+      image: "/workpic2.png",
       tags: ["Jenkins", "Docker", "Kubernetes", "Terraform"]
     },
     {
       title: "Full Stack CICD DevOps Project",
       description: "Implemented a robust multi-tier pipeline integrated with SSL certificates. This project automates and secures deployment processes!",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7407259191255470080/",
-      image: "/kubernetes.gif",
+      image: "/workpic3.png",
       tags: ["CI/CD", "SSL", "DevOps"]
     },
     {
