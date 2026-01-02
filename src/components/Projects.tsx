@@ -27,14 +27,14 @@ const Projects = () => {
       title: "Deploying Super Mario on Kubernetes",
       description: "Deploy a Super Mario game on Amazon's Elastic Kubernetes Service (EKS) with scalability, reliability, and easy management.",
       link: "https://learnwithdivya.hashnode.dev/deploying-super-mario-on-kubernetes",
-      image: "/awseks.webp",
+      image: "/workpic2.png",
       tags: ["EKS", "Kubernetes", "AWS"]
     },
     {
       title: "Valentine's Day Special CI/CD Project",
       description: "Implementing a seamless CI/CD pipeline, automating deployments, integrating Git, Jenkins, Docker for efficiency.",
       link: "https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb",
-      image: "/jenkins.webp",
+      image: "/workpic3.png",
       tags: ["Jenkins", "Docker", "Git"]
     }
   ];
